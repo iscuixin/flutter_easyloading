@@ -65,7 +65,7 @@ class _LoadingIndicatorState extends State<LoadingIndicator> {
         _indicator = SpinKitWave(
           color: _indicatorColor,
           size: _size,
-          itemCount: 6,
+          // itemCount: 6,
         );
         _width = _size * 1.25;
         break;
@@ -174,7 +174,7 @@ class _LoadingIndicatorState extends State<LoadingIndicator> {
         );
         break;
       case EasyLoadingIndicatorType.squareCircle:
-        _indicator = SpinKitSquareCircle(
+        _indicator = SpinKitSpinningCircle(
           color: _indicatorColor,
           size: _size,
         );
